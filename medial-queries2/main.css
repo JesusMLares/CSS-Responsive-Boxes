@@ -54,3 +54,31 @@ body {
   height: 40vh;
   margin-bottom: .5rem;
 }
+
+@media (max-width: 650px){
+  .main-container{
+    flex-direction: column;
+  }
+
+  .container-one{
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
+
+  .container-two{
+    flex-grow: 0;
+  }
+
+  .a{
+    height: 21vh;
+  }
+
+  .triplet{
+    height: 20vh;
+  }
+
+  .single{
+    height: 21vh;
+  }
+
+}
