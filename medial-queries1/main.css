@@ -1,3 +1,63 @@
+
 body {
   background: blanchedalmond;
+
+  margin: 0;
+  font-family: sans-serif;
+
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+width: 100%;
+text-align: center;
+}
+
+.a{
+  background-color: red;
+  min-height: 30vh;
+
+  margin: 10px;
+}
+
+.b-c{
+  display: flex;
+  justify-content: space-between;
+  min-height: 68vh;
+  margin: 10px;
+}
+
+.b{
+  background-color: orange;
+  width: 75%;
+}
+
+.c{
+  background-color: yellow;
+  width: 24%;
+}
+
+@media (max-width:650px) {
+  .b-c{
+    display: block;
+  }
+
+  .a{
+    min-height: 20vh;
+    width: 97%;
+  }
+
+  .b{
+    min-height: 60vh;
+    width: 100%;
+    margin: auto;
+  }
+
+  .c{
+    min-height: 17vh;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+  }
 }
